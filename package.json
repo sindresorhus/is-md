@@ -1,0 +1,40 @@
+{
+  "name": "is-md",
+  "version": "0.0.0",
+  "description": "Check if a filepath is a Markdown file",
+  "license": "MIT",
+  "repository": "sindresorhus/is-md",
+  "author": {
+    "name": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "node test.js"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "markdown",
+    "md",
+    "ext",
+    "extensions",
+    "extension",
+    "file",
+    "path",
+    "filepath",
+    "check",
+    "is",
+    "detect"
+  ],
+  "dependencies": {
+    "markdown-extensions": "^1.0.0"
+  },
+  "devDependencies": {
+    "ava": "0.0.4"
+  }
+}
