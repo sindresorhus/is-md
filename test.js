@@ -1,12 +1,10 @@
-'use strict';
-var test = require('ava');
-var isMd = require('./');
+import test from 'ava';
+import m from './';
 
-test(function (t) {
-	t.assert(isMd('src/unicorn.md'));
-	t.assert(isMd('unicorn.MD'));
-	t.assert(isMd('unicorn.markdown'));
-	t.assert(!isMd('unicorn.png'));
-	t.assert(!isMd('unicorn'));
-	t.end();
+test(t => {
+	t.true(m('src/unicorn.md'));
+	t.true(m('unicorn.MD'));
+	t.true(m('unicorn.markdown'));
+	t.false(m('unicorn.png'));
+	t.false(m('unicorn'));
 });
