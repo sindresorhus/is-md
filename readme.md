@@ -6,14 +6,14 @@
 ## Install
 
 ```
-$ npm install --save is-md
+$ npm install is-md
 ```
 
 
 ## Usage
 
 ```js
-var isMd = require('is-md');
+const isMd = require('is-md');
 
 isMd('src/unicorn.md');
 //=> true
@@ -25,4 +25,4 @@ isMd('src/unicorn.png');
 
 ## License
 
-MIT © [Sindre Sorhus](http://sindresorhus.com)
+MIT © [Sindre Sorhus](https://sindresorhus.com)

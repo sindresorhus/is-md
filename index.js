@@ -1,11 +1,11 @@
 'use strict';
-var path = require('path');
-var markdownExtensions = require('markdown-extensions');
+const path = require('path');
+const markdownExtensions = require('markdown-extensions');
 
-module.exports = function (str) {
-	if (typeof str !== 'string') {
+module.exports = input => {
+	if (typeof input !== 'string') {
 		throw new TypeError('Expected a string');
 	}
 
-	return markdownExtensions.indexOf(path.extname(str).slice(1).toLowerCase()) !== -1;
+	return markdownExtensions.includes(path.extname(input).slice(1).toLowerCase());
 };

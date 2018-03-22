@@ -1,40 +1,41 @@
 {
-  "name": "is-md",
-  "version": "1.0.1",
-  "description": "Check if a filepath is a Markdown file",
-  "license": "MIT",
-  "repository": "sindresorhus/is-md",
-  "author": {
-    "name": "Sindre Sorhus",
-    "email": "sindresorhus@gmail.com",
-    "url": "sindresorhus.com"
-  },
-  "engines": {
-    "node": ">=0.10.0"
-  },
-  "scripts": {
-    "test": "ava"
-  },
-  "files": [
-    "index.js"
-  ],
-  "keywords": [
-    "markdown",
-    "md",
-    "ext",
-    "extensions",
-    "extension",
-    "file",
-    "path",
-    "filepath",
-    "check",
-    "is",
-    "detect"
-  ],
-  "dependencies": {
-    "markdown-extensions": "^1.0.0"
-  },
-  "devDependencies": {
-    "ava": "*"
-  }
+	"name": "is-md",
+	"version": "1.0.1",
+	"description": "Check if a filepath is a Markdown file",
+	"license": "MIT",
+	"repository": "sindresorhus/is-md",
+	"author": {
+		"name": "Sindre Sorhus",
+		"email": "sindresorhus@gmail.com",
+		"url": "sindresorhus.com"
+	},
+	"engines": {
+		"node": ">=6"
+	},
+	"scripts": {
+		"test": "ava"
+	},
+	"files": [
+		"index.js"
+	],
+	"keywords": [
+		"markdown",
+		"md",
+		"ext",
+		"extensions",
+		"extension",
+		"file",
+		"path",
+		"filepath",
+		"check",
+		"is",
+		"detect"
+	],
+	"dependencies": {
+		"markdown-extensions": "^1.0.0"
+	},
+	"devDependencies": {
+		"ava": "*",
+		"xo": "*"
+	}
 }

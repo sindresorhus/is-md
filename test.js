@@ -1,7 +1,7 @@
 import test from 'ava';
-import m from './';
+import m from '.';
 
-test(t => {
+test('main', t => {
 	t.true(m('src/unicorn.md'));
 	t.true(m('unicorn.MD'));
 	t.true(m('unicorn.markdown'));
