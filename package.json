@@ -1,6 +1,6 @@
 {
   "name": "is-md",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Check if a filepath is a Markdown file",
   "license": "MIT",
   "repository": "sindresorhus/is-md",
@@ -16,7 +16,8 @@
     "test": "ava"
   },
   "files": [
-    "index.js"
+    "index.js",
+    "license"
   ],
   "keywords": [
     "markdown",
