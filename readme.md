@@ -1,4 +1,4 @@
-# is-md [![Build Status](https://travis-ci.org/sindresorhus/is-md.svg?branch=master)](https://travis-ci.org/sindresorhus/is-md)
+# is-md
 
 > Check if a filepath is a Markdown file
 
