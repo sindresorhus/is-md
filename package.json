@@ -1,6 +1,6 @@
 {
 	"name": "is-md",
-	"version": "2.0.0",
+	"version": "3.0.0",
 	"description": "Check if a file path is a Markdown file",
 	"license": "MIT",
 	"repository": "sindresorhus/is-md",
