@@ -1,11 +1,10 @@
-'use strict';
-const path = require('path');
-const markdownExtensions = require('markdown-extensions');
+import path from 'node:path';
+import markdownExtensions from 'markdown-extensions';
 
-module.exports = input => {
-	if (typeof input !== 'string') {
+export default function isMarkdownFilePath(filePath) {
+	if (typeof filePath !== 'string') {
 		throw new TypeError('Expected a string');
 	}
 
-	return markdownExtensions.includes(path.extname(input).slice(1).toLowerCase());
-};
+	return markdownExtensions.includes(path.extname(filePath).slice(1).toLowerCase());
+}

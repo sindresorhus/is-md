@@ -1,10 +1,10 @@
 import test from 'ava';
-import m from '.';
+import isMarkdownFilePath from './index.js';
 
 test('main', t => {
-	t.true(m('src/unicorn.md'));
-	t.true(m('unicorn.MD'));
-	t.true(m('unicorn.markdown'));
-	t.false(m('unicorn.png'));
-	t.false(m('unicorn'));
+	t.true(isMarkdownFilePath('src/unicorn.md'));
+	t.true(isMarkdownFilePath('unicorn.MD'));
+	t.true(isMarkdownFilePath('unicorn.markdown'));
+	t.false(isMarkdownFilePath('unicorn.png'));
+	t.false(isMarkdownFilePath('unicorn'));
 });
